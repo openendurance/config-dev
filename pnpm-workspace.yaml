@@ -1,0 +1,8 @@
+packages:
+    - "apps/*"
+    - "packages/*"
+allowBuilds:
+    "@openendurance/config-ort": true
+    "@parcel/watcher": true
+    protobufjs: true
+    unrs-resolver: true

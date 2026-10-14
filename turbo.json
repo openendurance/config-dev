@@ -1,0 +1,45 @@
+{
+	"$schema": "./node_modules/turbo/schema.json",
+	"ui": "tui",
+	"envMode": "loose",
+	"globalDependencies": [
+		"tsconfig.json",
+		"package.json",
+		"pnpm-lock.yaml",
+		".npmrc",
+		".nvmrc"
+	],
+	"globalEnv": ["NODE_ENV"],
+	"globalPassThroughEnv": [
+		"CI",
+		"ENABLE_EXPERIMENTAL_COREPACK",
+		"HUSKY",
+		"TURBO_TOKEN",
+		"TURBO_TEAM"
+	],
+	"tasks": {
+		"build": {
+			"dependsOn": ["^build"]
+		},
+		"build:ci": {
+			"dependsOn": ["^build:ci"]
+		},
+		"dev": {
+			"persistent": true,
+			"cache": false
+		},
+		"lint": {
+			"dependsOn": ["^lint"],
+			"cache": true
+		},
+		"test": {
+			"dependsOn": ["^build", "^test"],
+			"outputs": [".coverage/**"],
+			"cache": true
+		},
+		"typecheck": {
+			"dependsOn": ["^typecheck"],
+			"outputs": ["tsconfig.tsbuildinfo"]
+		}
+	}
+}
