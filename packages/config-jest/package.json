@@ -17,6 +17,11 @@
 		"type": "git",
 		"url": "https://github.com/openendurance/config-dev"
 	},
+	"peerDependencies": {
+		"jest": "^30.4.2",
+		"ts-jest": "^29.4.11",
+		"typescript": "^6.0.3"
+	},
 	"files": [
 		"README.md",
 		"src"
