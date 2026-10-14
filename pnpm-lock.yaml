@@ -68,7 +68,7 @@ importers:
 
   packages/config-prettier: {}
 
-  packages/tsconfig: {}
+  packages/config-typescript: {}
 
 packages:
 

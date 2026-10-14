@@ -1,14 +1,14 @@
 {
 	"$schema": "https://json.schemastore.org/package",
-	"name": "@openendurance/tsconfig",
+	"name": "@openendurance/config-typescript",
 	"version": "0.0.0",
 	"license": "Apache-2.0",
 	"author": "Kristopher Cargile <k@algorythmic.com>",
 	"description": "Shared TypeScript configuration presets for Open Endurance Initiative projects.",
 	"keywords": [
 		"typescript",
-		"tsconfig",
 		"config",
+		"tsconfig",
 		"open-endurance-initiative",
 		"oei"
 	],
