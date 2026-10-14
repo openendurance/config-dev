@@ -54,6 +54,8 @@ importers:
         specifier: ^6.0.3
         version: 6.0.3
 
+  packages/config-jest: {}
+
   packages/config-prettier: {}
 
   packages/tsconfig: {}

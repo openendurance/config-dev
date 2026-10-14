@@ -10,7 +10,7 @@ This repository packages the common TypeScript, Prettier, and Jest configuration
 | -------------------------------- | ------------------------------------------------------------ |
 | `@openendurance/tsconfig`        | Shared TypeScript base configs and package-specific variants |
 | `@openendurance/config-prettier` | Shared Prettier configuration                                |
-| `@openendurance/jest-config`     | Shared Jest configuration                                    |
+| `@openendurance/config-jest`     | Shared Jest configuration                                    |
 
 ## Repository Layout
 
