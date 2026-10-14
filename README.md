@@ -31,3 +31,21 @@ This repository packages the common TypeScript, Prettier, and Jest configuration
 ## Documentation
 
 Start with [docs/README.md](docs/README.md) and [docs/TOC.md](docs/TOC.md).
+
+## License
+
+Licensed under the [Apache License, Version 2.0](./LICENSE).
+
+```
+SPDX-License-Identifier: Apache-2.0
+```
+
+---
+
+<div align="center">
+	Made with 💙 in Colorado, USA
+</div>
+<br />
+<div align="center">
+	Copyright © 2026 <a href="https://algorythmic.com">Algorythmic, LLC</a>
+</div>
