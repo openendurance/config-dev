@@ -14,9 +14,9 @@
 /.changeset/*.md                       @openendurance/engineering
 
 # Package surface — shared config packages and their source trees.
-/packages/tsconfig/                    @openendurance/engineering
-/packages/tsconfig/package.json        @openendurance/engineering
-/packages/tsconfig/src/                @openendurance/engineering
+/packages/config-typescript/           @openendurance/engineering
+/packages/config-typescript/package.json @openendurance/engineering
+/packages/config-typescript/src/       @openendurance/engineering
 /packages/config-prettier/             @openendurance/engineering
 /packages/config-prettier/package.json @openendurance/engineering
 /packages/config-prettier/src/         @openendurance/engineering

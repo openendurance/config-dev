@@ -1,20 +1,26 @@
 {
 	"$schema": "https://json.schemastore.org/package",
-	"name": "@openendurance/tsconfig",
+	"name": "@openendurance/config-typescript",
 	"version": "0.0.0",
 	"license": "Apache-2.0",
 	"author": "Kristopher Cargile <k@algorythmic.com>",
 	"description": "Shared TypeScript configuration presets for Open Endurance Initiative projects.",
 	"keywords": [
-		"typescript",
-		"tsconfig",
-		"config",
+		"endurance-sports",
+		"fitness",
+		"healthtech",
+		"oei",
 		"open-endurance-initiative",
-		"oei"
+		"open-source",
+		"openenduranceinitiative"
 	],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/openendurance/config-dev"
+	},
+	"publishConfig": {
+		"access": "public",
+		"provenance": true
 	},
 	"files": [
 		"README.md",

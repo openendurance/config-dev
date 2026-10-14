@@ -1,4 +1,4 @@
-# @openendurance/tsconfig
+# @openendurance/config-typescript
 
 Shared TypeScript configuration presets for Open Endurance Initiative projects.
 
@@ -22,7 +22,7 @@ Extend the preset that best matches the project, then layer local settings on to
 
 ```json
 {
-	"extends": "@openendurance/tsconfig/node.json",
+	"extends": "@openendurance/config-typescript/node.json",
 	"compilerOptions": {
 		"outDir": "dist",
 		"rootDir": "src"
