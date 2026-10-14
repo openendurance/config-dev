@@ -6,15 +6,21 @@
 	"author": "Kristopher Cargile <k@algorythmic.com>",
 	"description": "Shared Prettier configuration for Open Endurance Initiative projects.",
 	"keywords": [
-		"prettier",
-		"formatting",
-		"config",
+		"endurance-sports",
+		"fitness",
+		"healthtech",
+		"oei",
 		"open-endurance-initiative",
-		"oei"
+		"open-source",
+		"openenduranceinitiative"
 	],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/openendurance/config-dev"
+	},
+	"publishConfig": {
+		"access": "public",
+		"provenance": true
 	},
 	"files": [
 		"README.md",

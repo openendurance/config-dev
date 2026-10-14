@@ -12,11 +12,11 @@ This repository replaces the older shared dev-config monorepo. It publishes a sm
 
 The package set is intentionally small and mirrored by directory name:
 
-| Package                          | Purpose                        |
-| -------------------------------- | ------------------------------ |
-| `@openendurance/tsconfig`        | Shared TypeScript base configs |
-| `@openendurance/config-prettier` | Shared Prettier configuration  |
-| `@openendurance/config-jest`     | Shared Jest configuration      |
+| Package                            | Purpose                        |
+| ---------------------------------- | ------------------------------ |
+| `@openendurance/config-typescript` | Shared TypeScript base configs |
+| `@openendurance/config-prettier`   | Shared Prettier configuration  |
+| `@openendurance/config-jest`       | Shared Jest configuration      |
 
 Package source code lives under `packages/<name>/src`.
 

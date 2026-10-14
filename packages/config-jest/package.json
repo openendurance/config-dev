@@ -6,16 +6,21 @@
 	"author": "Kristopher Cargile <k@algorythmic.com>",
 	"description": "Shared Jest configuration for Open Endurance Initiative projects.",
 	"keywords": [
-		"jest",
-		"testing",
-		"config",
-		"typescript",
+		"endurance-sports",
+		"fitness",
+		"healthtech",
+		"oei",
 		"open-endurance-initiative",
-		"oei"
+		"open-source",
+		"openenduranceinitiative"
 	],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/openendurance/config-dev"
+	},
+	"publishConfig": {
+		"access": "public",
+		"provenance": true
 	},
 	"peerDependencies": {
 		"jest": "^30.4.2",

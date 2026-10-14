@@ -12,11 +12,11 @@ This repository publishes reusable configuration packages for TypeScript, Pretti
 
 The package set is intentionally mirrored by directory name:
 
-| Package                          | Purpose                        |
-| -------------------------------- | ------------------------------ |
-| `@openendurance/tsconfig`        | Shared TypeScript base configs |
-| `@openendurance/config-prettier` | Shared Prettier configuration  |
-| `@openendurance/config-jest`     | Shared Jest configuration      |
+| Package                            | Purpose                        |
+| ---------------------------------- | ------------------------------ |
+| `@openendurance/config-typescript` | Shared TypeScript base configs |
+| `@openendurance/config-prettier`   | Shared Prettier configuration  |
+| `@openendurance/config-jest`       | Shared Jest configuration      |
 
 Package source code lives in `packages/<name>/src`.
 

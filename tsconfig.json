@@ -26,6 +26,13 @@
 		"typeRoots": ["./node_modules/@types"],
 		"types": ["node"]
 	},
-	"include": ["**/*.ts", "**/*.mts", "**/*.cts"],
+	"include": [
+		"**/*.ts",
+		"**/*.mts",
+		"**/*.cts",
+		"**/*.js",
+		"**/*.mjs",
+		"**/*.cjs"
+	],
 	"exclude": ["**/.old", "**/.wip", "**/coverage", "**/dist"]
 }
