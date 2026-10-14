@@ -6,11 +6,13 @@
 	"author": "Kristopher Cargile <k@algorythmic.com>",
 	"description": "Shared TypeScript configuration presets for Open Endurance Initiative projects.",
 	"keywords": [
-		"typescript",
-		"config",
-		"tsconfig",
+		"endurance-sports",
+		"fitness",
+		"healthtech",
+		"oei",
 		"open-endurance-initiative",
-		"oei"
+		"open-source",
+		"openenduranceinitiative"
 	],
 	"repository": {
 		"type": "git",
