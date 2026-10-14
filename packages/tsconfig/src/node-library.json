@@ -1,0 +1,10 @@
+{
+	"extends": "./node.json",
+	"compilerOptions": {
+		"composite": true,
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"verbatimModuleSyntax": true
+	}
+}

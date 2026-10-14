@@ -1,0 +1,37 @@
+{
+	"$schema": "https://json.schemastore.org/package",
+	"name": "@openendurance/tsconfig",
+	"version": "0.0.0",
+	"license": "Apache-2.0",
+	"author": "Kristopher Cargile <k@algorythmic.com>",
+	"description": "Shared TypeScript configuration presets for Open Endurance Initiative projects.",
+	"keywords": [
+		"typescript",
+		"tsconfig",
+		"config",
+		"open-endurance-initiative",
+		"oei"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/openendurance/config-dev"
+	},
+	"files": [
+		"README.md",
+		"src"
+	],
+	"scripts": {
+		"build": "pnpm run lint",
+		"lint": "pnpm exec biome lint README.md src",
+		"prepack": "pnpm run build"
+	},
+	"exports": {
+		"./base.json": "./src/base.json",
+		"./node.json": "./src/node.json",
+		"./node-library.json": "./src/node-library.json",
+		"./web.json": "./src/web.json",
+		"./react-native.json": "./src/react-native.json",
+		"./electron-main.json": "./src/electron-main.json",
+		"./electron-renderer.json": "./src/electron-renderer.json"
+	}
+}
