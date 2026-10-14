@@ -1,0 +1,30 @@
+{
+	"$schema": "https://json.schemastore.org/package",
+	"name": "@openendurance/config-prettier",
+	"version": "0.0.0",
+	"license": "Apache-2.0",
+	"author": "Kristopher Cargile <k@algorythmic.com>",
+	"description": "Shared Prettier configuration for Open Endurance Initiative projects.",
+	"keywords": [
+		"prettier",
+		"formatting",
+		"config",
+		"open-endurance-initiative",
+		"oei"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/openendurance/config-dev"
+	},
+	"files": [
+		"README.md",
+		"src"
+	],
+	"main": "./src/index.js",
+	"exports": "./src/index.js",
+	"scripts": {
+		"build": "pnpm run lint",
+		"lint": "pnpm exec biome lint README.md src",
+		"prepack": "pnpm run build"
+	}
+}

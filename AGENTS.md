@@ -15,7 +15,7 @@ The package set is intentionally small and mirrored by directory name:
 | Package                          | Purpose                        |
 | -------------------------------- | ------------------------------ |
 | `@openendurance/tsconfig`        | Shared TypeScript base configs |
-| `@openendurance/prettier-config` | Shared Prettier configuration  |
+| `@openendurance/config-prettier` | Shared Prettier configuration  |
 | `@openendurance/jest-config`     | Shared Jest configuration      |
 
 Package source code lives under `packages/<name>/src`.
