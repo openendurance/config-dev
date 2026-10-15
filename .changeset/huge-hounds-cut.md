@@ -4,4 +4,4 @@
 "@openendurance/config-jest": patch
 ---
 
-Normalize repository.url for all packaages
+Rename tsconfig package to config-typescript and adjust NPM publishing config. Normalize repository.url for all packages.
