@@ -1,29 +1,14 @@
 {
 	"$schema": "https://json.schemastore.org/package",
 	"name": "@openendurance/config-dev",
+	"private": "true",
 	"version": "0.0.0",
 	"license": "Apache-2.0",
 	"author": "Kristopher Cargile <k@algorythmic.com>",
 	"description": "Shared development configuration for Open Endurance Initiative repositories.",
-	"keywords": [
-		"open-source",
-		"oss",
-		"ort",
-		"license-compliance",
-		"openenduranceinitiative",
-		"open-endurance-initiative"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/openendurance/config-dev"
-	},
 	"packageManager": "pnpm@11.22.0",
 	"engines": {
 		"node": ">=24"
-	},
-	"publishConfig": {
-		"access": "public",
-		"provenance": true
 	},
 	"scripts": {
 		"build": "pnpm turbo run build",
