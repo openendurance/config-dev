@@ -1,5 +1,11 @@
 # @openendurance/config-typescript
 
+## 0.2.1
+
+### Patch Changes
+
+- 08a422b: Rename tsconfig package to config-typescript and adjust NPM publishing config. Normalize repository.url for all packages.
+
 ## 0.2.0
 
 ### Minor Changes
