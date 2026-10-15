@@ -1,8 +1,8 @@
 # @openendurance/config-prettier
 
-## 0.1.1
+## 0.2.0
 
-### Patch Changes
+### Minor Changes
 
 - c1f2e28: Rename tsconfig package to config-typescript and adjust NPM publishing config
 
